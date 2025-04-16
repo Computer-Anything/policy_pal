@@ -72,6 +72,19 @@ SMTP_PORT=587
 
 ---
 
+## ✅ Example: A real user story
+
+Imagine a freelancer building a site for a bakery.
+
+- The baker doesn’t know what GDPR is
+- She doesn't want to touch ChatGPT
+- She just wants a box that says “Answer these 5 things and you’ll be legally okay”
+- Bonus points if the cookie banner is copy-paste and works on Squarespace
+
+That’s PolicyPal.
+
+---
+
 ## 🧪 MVP Features
 
 1. Create Policies:
