@@ -54,6 +54,8 @@ npm install
 npm run dev
 ```
 
+---
+
 ## 🔐 .env Configuration (Backend)
 
 ```bash
@@ -67,6 +69,8 @@ MYSQL_DB=policypal
 SMTP_HOST=smtp.yourhost.com
 SMTP_PORT=587
 ```
+
+---
 
 ## 🧪 MVP Features
 
@@ -82,15 +86,21 @@ SMTP_PORT=587
 3. Account Management:
     - User profile, with ability to view/edit previously generated policies
 
+---
+
 ## 💡 Future Features
 
 - Custom branding for cookie banners and policies
 - Automatic legal updates (e.g., GDPR changes) to policies
 - Hosting policies under the app’s domain for users (e.g., yourapp.policypal.com/privacy)
 
+---
+
 ## 💬 Inspiration
 
 Built to solve the problem of receiving form submissions without relying on external services like Formspree, Typeform, or email APIs. Perfect for freelancers, creators, or developers looking for a quick solution that they control.
+
+---
 
 ## 📄 License
 
