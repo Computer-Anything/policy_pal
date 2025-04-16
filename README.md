@@ -24,35 +24,35 @@
 
 ## 🛠️ Local Development
 
-1. Clone the repo
+### 1. Clone the repo
 
-    - ```bash
-      git clone <https://github.com/yourusername/policypal.git>
-      cd policypal
-      ```
+```bash
+git clone https://github.com/yourusername/policypal.git
+cd policypal
+```
 
-2. Set up the backend
+### 2. Set up the backend
 
-    - ```bash
-      cd backend
-      python -m venv venv
-      source venv/bin/activate  # or .\venv\Scripts\activate on Windows
-      pip install -r requirements.txt
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # or .\venv\Scripts\activate on Windows
+pip install -r requirements.txt
 
-      # Add your .env config
-      cp .env.example .env
+# Add your .env config
+cp .env.example .env
 
-      # Run the Flask API
-      flask run
-      ```
+# Run the Flask API
+flask run
+```
 
-3. Set up the frontend
+### 3. Set up the frontend
 
-    - ```bash
-      cd frontend
-      npm install
-      npm run dev
-      ```
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ## 🔐 .env Configuration (Backend)
 
@@ -81,3 +81,17 @@ SMTP_PORT=587
 
 3. Account Management:
     - User profile, with ability to view/edit previously generated policies
+
+## 💡 Future Features
+
+- Custom branding for cookie banners and policies
+- Automatic legal updates (e.g., GDPR changes) to policies
+- Hosting policies under the app’s domain for users (e.g., yourapp.policypal.com/privacy)
+
+## 💬 Inspiration
+
+Built to solve the problem of receiving form submissions without relying on external services like Formspree, Typeform, or email APIs. Perfect for freelancers, creators, or developers looking for a quick solution that they control.
+
+## 📄 License
+
+MIT License
