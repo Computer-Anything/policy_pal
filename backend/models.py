@@ -18,7 +18,8 @@ class User(db.Model):
     def check_password(self, password):
         return check_password_hash(self.password, password)
 
-    def __repr__(self): # This is a special method that defines how the object is represented
+    def __repr__(self):
+        # This is a special method that defines how the object is represented
         # when printed or logged. It returns a string representation of the object.
         # In this case, it returns the username of the user.
         # This is useful for debugging and logging purposes.
