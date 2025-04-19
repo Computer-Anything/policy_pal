@@ -96,6 +96,15 @@ That’s PolicyPal.
 3. Account Management:
     - User profile, with ability to view/edit previously generated policies
 
+### 👤 Workflow
+
+1. User logs in → Dashboard (/dashboard)
+2. User clicks "➕ Create New Policy" button
+3. User gets routed to /create-policy
+4. Full form appears with all needed fields
+5. Submit → generate + save the Policy
+6. Redirect back to /dashboard (and show their new Policy!)
+
 ---
 
 ## 💡 Future Features
