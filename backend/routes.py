@@ -119,23 +119,3 @@ def get_all_users():
     users = User.query.all()
     return jsonify([{"id": user.id, "username": user.username} for user in users]), 200
 
-
-# POLICIES ROUTES
-# Route to get all policies
-@routes.route('/policies', methods=['GET'])
-@jwt_required()
-def get_policies():
-    user_id = get_jwt_identity()  # Get the user ID from the JWT token
-    user = User.query.get(user_id)
-    if not user:
-        return jsonify({"msg": "User not found"}), 404
-
-    # Example: Fetch policies from a hypothetical Policy model
-    policies = Policy.query.filter_by(user_id=user_id).all()
-    return jsonify([{
-        "id": policy.id,
-        "title": policy.title,
-        "created_at": policy.created_at.isoformat()
-    } for policy in policies]), 200
-
-
