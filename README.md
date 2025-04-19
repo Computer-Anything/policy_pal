@@ -27,16 +27,13 @@
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/policypal.git
+git clone https://github.com/Computer-Anything/policy_pal.git
 cd policypal
 ```
 
 ### 2. Set up the backend
 
 ```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 # Add your .env config
